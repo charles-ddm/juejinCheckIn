@@ -167,7 +167,7 @@ const sendEmail = async () => {
       secureConnection: true,
       auth: {
         user: process.env.EMAIL, // 发送者邮箱
-        pass: process.env.PASS, // 邮箱授权码
+        pass: process.env.PASS2, // 邮箱授权码
       }
     })
 
